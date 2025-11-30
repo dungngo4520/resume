@@ -1,0 +1,48 @@
+# Ignore common LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.brf
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.xdv
+*.nav
+*.snm
+*.vrb
+*.idx
+*.ilg
+*.ind
+
+# latexmk files
+latexmk.*
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+*.iml
+
+# Python / virtualenv (if present)
+__pycache__/
+*.py[cod]
+venv/
+env/
+.env
+
+# Node (if present)
+node_modules/
+
+# Misc
+*.tmp
+
+# Output PDFs
+*.pdf

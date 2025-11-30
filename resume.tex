@@ -1,0 +1,72 @@
+\documentclass[10pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=0.6in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{ragged2e}
+\renewcommand{\familydefault}{\sfdefault}
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{-0.4em}\rule{\linewidth}{0.4pt}\vspace{0.3em}]
+\titlespacing*{\section}{0pt}{1ex}{0.5ex}
+\setlength{\parskip}{0.3ex}
+\begin{document}
+\RaggedRight
+
+% Name + Title
+\begin{center}
+  {\LARGE\bfseries NGO DUC DUNG}\\[4pt]
+  {\normalsize Software Engineer}
+\end{center}
+\vspace{4pt}
+
+% Contact
+\begin{center}
+  {\small
+    \texttt{+84 377 369 365} \quad | \quad \texttt{dungngo4520@gmail.com} \quad | \quad Hanoi, VN\\[3pt]
+    \href{https://github.com/dungngo4520}{github.com/dungngo4520} \quad | \quad \href{https://linkedin.com/in/dungngo4520}{linkedin.com/in/dungngo4520}\\[3pt]
+  }
+\end{center}
+\vspace{6pt}
+
+\section*{Profile}
+\noindent
+Systems engineer with 4+ years building system-level software for Linux and Windows kernels. Built kernel drivers, real-time malware scanners, and telemetry services; focus on speed and reliability. Shipped work to thousands of endpoints and cut customer-impacting crashes to 0\%.
+
+\section*{Core Skills}
+\noindent
+% Core skills grouped for scannability (expanded with senior-level items)
+\textbf{Languages:} C, C++, Go, Rust, Python, Shell, SQL, Zig\\
+\textbf{Platforms / Frameworks:} Windows kernel (WDM, WDF, WFP, FS Filter), Linux kernel modules, user-space daemons, Qt\\
+\textbf{Debugging / Profiling:} Low-level debugging (WinDbg, WPA/WPR, perf, eBPF, ETW), x64dbg, gdb, IDA\\
+\textbf{Tools / DevOps:} Git, Jira, Jenkins, Docker, CI/CD, unit \& integration tests, observability\\
+\textbf{Architecture / Design:} Systems architecture design; distributed log/telemetry pipeline design; multithreaded systems; microservices; Strategy/Pipeline/State patterns\\
+\textbf{Security / Practices:} Secure development (sandboxing, privilege boundaries); malware analysis; memory \& file scanning
+\section*{Professional Experience}
+\noindent
+\textbf{Viettel Cyber Security} \hfill \textit{Software Engineer} \\
+\textit{Endpoint Security Services (EDR, EPP, EDP)} \hfill 2021 -- Present \\
+\textit{Project:} Endpoint Security Services - collects endpoint logs and activities, detects and protects against malware, and provides operators with telemetry and response tools. \textit{Team size:} 20.
+
+\begin{itemize}[leftmargin=*,noitemsep]
+  \item Responsibilities: Device Control, Endpoint Firewall, Web Protection, Anti-Ransomware (kernel-level protection features).
+  \item Mentored new team members, ran code reviews, and helped set coding standards and onboarding practices to improve code quality and ramp-up time.
+  \item Built Windows kernel drivers for protection features and deployed to thousands of endpoints; maintained a 0\% customer-impacting crash rate.
+  \item Rewrote the Linux log-collection subsystem as a stable kernel module - eliminated production hangs and improved telemetry reliability.
+  \item Implemented a multithreaded real-time malware scanner on Linux - made scans ~20\% faster and reduced latency so scanning works in real time.
+  \item Tuned log processing and telemetry pipelines to lower CPU and memory use and improve stability under heavy load.
+  \item Built CI/CD pipelines with Jenkins and Docker and added automated tests to reduce regressions and speed releases. Follow agile/Scrum processes.
+\end{itemize}
+
+\section*{Education}
+\noindent
+\textbf{University of Engineering and Technology, Vietnam National University} \hfill 2018 -- 2022\\
+Bachelor of Information Technology, graduated with distinction; GPA: 3.21
+
+\section*{Other}
+\noindent
+\textbf{Languages:} Vietnamese (native), English (professional)
+
+\end{document}
